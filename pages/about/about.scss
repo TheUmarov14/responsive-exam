@@ -29,3 +29,137 @@
         line-height: 28px;
     }
 }
+
+// Section2
+
+.about-sec2-container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+}
+
+.about-sec2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #004047;
+    color: white;
+    box-sizing: border-box;
+    background-image: url(../../images/about-sec2-img.svg), url(../../images/about-sec2-img-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+
+    h2 {
+        margin-bottom: 16px;
+        margin-top: 140px;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 48px;
+        text-align: center;
+    }
+}
+
+.about-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-sec2 {
+    width: 35rem;
+    height: 25.3rem;
+    background-color: #012F34;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    box-sizing: border-box;
+}
+
+.plus-name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+
+    p {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 28px;
+        text-align: center;
+        margin-top: 16px;
+        color: #79C8C7;
+    }
+
+    i {
+        font-size: 15px;
+        font-style: italic;
+        font-weight: 500;
+        line-height: 25px;
+        text-align: center;
+    }
+}
+
+.plus {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    background-color: #F67E7E;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 85px;
+    margin-left: 20px;
+    border: none;
+    transition: 0.3s;
+
+
+    span {
+        font-size: 25px;
+    }
+
+    &:hover {
+        background-color: #79C8C7;
+    }
+
+    &:active {
+        opacity: 60%;
+    }
+}
+
+.about-box-top {
+    display: flex;
+    gap: 30px;
+}
+
+.about-box-bottom {
+    display: flex;
+    gap: 30px;
+}
+
+// Section3
+
+.about-sec3 {
+    background-color: #012F34;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    background-image: url(../../images/clients-circle-about.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.about-sec3-container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+
+    h2 {
+        margin-bottom: 64px;
+        text-align: center;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 48px;
+    }
+}
